@@ -2,7 +2,7 @@ name: docker-build-image
 
 on:
   push:
-    branches:
+    branches: 
       - 'main'
     tags:
       - "v*"
